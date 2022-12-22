@@ -1,0 +1,17 @@
+.input {
+    border-radius: 6px;
+
+    box-shadow: inset 3px 3px 7px #e9bd7c, inset -3px -3px 7px #ffd98e;
+    min-height: 2.2em;
+
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    max-width: 340px;
+    margin-left: 40px;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+}

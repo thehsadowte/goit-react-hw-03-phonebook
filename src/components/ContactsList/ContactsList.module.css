@@ -1,0 +1,32 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+
+    font-family: 'Dosis', Georgia, cursive;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 0.618em 1.2em;
+
+    font-family: 'Dosis', Georgia, cursive;
+    font-size: 16px;
+
+    cursor: pointer;
+    background: #1F2833;
+    box-shadow: 4px 4px 8px #c19c66, -4px -4px 8px #fffaa4;
+    border: 1px solid #ec263c66;
+    color: #fff;
+    border-radius: 0.4em;
+    margin-left: auto;
+}
+
+.btn:hover {
+    box-shadow: 4px 4px 8px #ffffff, -4px -4px 8px #97a1a1;
+}

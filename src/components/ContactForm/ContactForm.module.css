@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Raleway:ital,wght@0,700;1,900&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    color: #45A29E
+}
+
+body {
+    font-size: 18px;
+}
+
+
+.form {
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h1 {
+    text-align: center;
+    margin: 0 0 25px;
+}
+
+.wrapper {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.wrapper label {
+    color: #C5C6C7;
+    display: flex;
+}
+
+.wrapper input {
+    border-radius: 6px;
+    box-shadow: inset 3px 3px 7px #e9bd7c, inset -3px -3px 7px #ffd98e;
+    min-height: 2.5em;
+    border: #97a1a1 solid 2px;
+    /* display: block; */
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.wrapper input:focus {
+    outline: 0;
+    border-color: #f9b198;
+}
+
+.form button {
+    cursor: pointer;
+    background: repeating-linear-gradient(45deg, #0B0C10, transparent 100px);
+    box-shadow: 4px 4px 8px #ffffff, -4px -4px 8px #97a1a1;
+    border: 1px solid #97a1a1;
+    /* color: #45A29E; */
+    color: #66FCF1;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0.618em 1.2em;
+    border-radius: 0.4em;
+    font-family: 'Dosis', Georgia, cursive;
+    /* display: block; */
+
+    min-width: 340px;
+    margin-top: 20px;
+}
+
+.form button:hover {
+    box-shadow: 4px 4px 8px #c19c66, -4px -4px 8px #fffaa4;
+}
+
+input {
+    background: repeating-linear-gradient(45deg, #0B0C10, transparent 100px);
+    font-size: 18px;
+    font-family: 'Dosis', Georgia, cursive;
+    color: #fff;
+    margin-bottom: 20px;
+    display: block;
+    min-width: 320px;
+    padding-top: 4px;
+}
+
+label {
+    line-height: 1.8;
+}
+
+input {
+    border-radius: 6px;
+    box-shadow: inset 3px 3px 7px #e9bd7c, inset -3px -3px 7px #ffd98e;
+    min-height: 2.2em;
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+    max-width: 340px;
+}
+
+label {
+
+    display: block;
+    margin-bottom: 5px;
+}
