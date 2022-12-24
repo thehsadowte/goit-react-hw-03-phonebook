@@ -15,6 +15,19 @@ export class App extends Component {
     filter: '',
   };
 
+  componentDidMount() {
+    const contactStorage = JSON.parse(localStorage.getItem('contacts'));
+    if (contactStorage.length > 0) {
+      this.setState({ contacts: contactStorage });
+    }
+  }
+
+  componentDidUpdate(prevState) {
+    if (prevState.contacts !== this.state.contacts) {
+      localStorage.setItem('contacts', JSON.stringify(this.state.contacts));
+    }
+  }
+
   normalizedContact = value => value.toLowerCase().trim();
 
   addNewContact = newContact => {
